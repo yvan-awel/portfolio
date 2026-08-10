@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yvan Awelba  Portfolio</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#accueil" class="navbar__logo">YA<span>.</span></a>
+
+        <button id="burger" class="navbar__burger" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav-menu" class="navbar__menu">
+        <a href="#accueil" class="nav-link">Accueil</a>
+        <a href="#profil" class="nav-link">Profil</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#projets" class="nav-link">Projets</a>
+        <a href="#formation" class="nav-link">Formation</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="accueil" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Étudiant en Informatique &amp; Télécommunication</p>
+        <h1 class="hero__title">Yvan <span>Awelba</span></h1>
+        <p class="hero__subtitle">
+          Je conçois de petites solutions numériques avec Python, PHP et le web 
+          curieux, motivé, et toujours prêt à apprendre.
+        </p>
+        <div class="hero__actions">
+          <a href="#projets" class="btn btn--primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn--outline">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero__photo">
+  
+        <img src="images/imn.png" alt="Photo de Yvan Awelba" onerror="this.src='images/placeholder.svg'">
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="profil" class="section">
+    <div class="container">
+      <h2 class="section__title">Profil professionnel</h2>
+      <p class="section__text">
+        Étudiant en première année d'Informatique et Télécommunications, passionné
+        par les technologies informatiques, la programmation et les systèmes numériques.
+        Curieux et déterminé, je développe progressivement des compétences en Python,
+        en conception de solutions numériques et en utilisation d'outils informatiques
+        modernes à travers des projets personnels et académiques. Je recherche un stage
+        académique afin d'approfondir mon expérience pratique et de contribuer à des
+        projets techniques innovants.
+      </p>
+    </div>
+  </section>
+
+  
+  <section id="competences" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Compétences</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Programmation</h3>
+          <ul>
+            <li>Python</li>
+            <li>PHP (bases)</li>
+            <li>Langage C (bases)</li>
+            <li>JavaScript (bases)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Développement Web</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Conception de sites web</li>
+            <li>Développement backend basique</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Bases de données</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>Gestion de données simples</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Conception graphique</h3>
+          <ul>
+            <li>Canva</li>
+            <li>Adobe Photoshop</li>
+            <li>Création de flyers et visuels</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <h3 class="skills-subtitle">Logiciels &amp; outils</h3>
+      <div class="tools">
+        <span class="tool-tag">VS Code</span>
+        <span class="tool-tag">Cursor</span>
+        <span class="tool-tag">PyCharm</span>
+        <span class="tool-tag">Spyder</span>
+        <span class="tool-tag">WampServer</span>
+        <span class="tool-tag">Microsoft Word</span>
+        <span class="tool-tag">Microsoft Excel</span>
+        <span class="tool-tag">Microsoft PowerPoint</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projets" class="section">
+    <div class="container">
+      <h2 class="section__title">Projets &amp; expériences techniques</h2>
+
+      <div class="projects-list">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Prototype de plateforme de réservation de voyages</h3>
+            <span class="badge">Hackathon  Journée Sahel Digitale</span>
+          </div>
+          <ul>
+            <li>Conception d'un prototype de plateforme web centralisant plusieurs agences de voyage pour la réservation de billets.</li>
+            <li>Participation au développement de l'interface et de la logique fonctionnelle du prototype.</li>
+            <li>Utilisation d'outils de développement assisté et d'environnements de programmation modernes.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Plateforme de communication agriculteurs / éleveurs</h3>
+            <span class="badge">Projet d'équipe</span>
+          </div>
+          <ul>
+            <li>Développement de la partie backend d'une plateforme facilitant la communication entre agriculteurs et éleveurs.</li>
+            <li>Mise en place d'une base de données pour la gestion des utilisateurs et des informations.</li>
+            <li>Participation à la conception globale de la logique de la plateforme.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Système de gestion des candidats à un concours</h3>
+            <span class="badge">Projet académique</span>
+          </div>
+          <ul>
+            <li>Développement d'un système de gestion des inscriptions à un concours en langage Python.</li>
+            <li>Implémentation des fonctionnalités de stockage et de traitement des informations des candidats.</li>
+            <li>Travail sur la logique algorithmique et la manipulation des données.</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="formation" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Formation</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">2025  En cours</span>
+          <h3>Niveau 1  Informatique et Télécommunications</h3>
+          <p>École Nationale Supérieure Polytechnique de Maroua</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2025</span>
+          <h3>Baccalauréat scientifique série C</h3>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2026</span>
+          <h3>Certification Python — Basic of Python (CR641)</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section__title">Contact</h2>
+      <p class="section__text">
+        Une question, une opportunité de stage ? N'hésite pas à me contacter directement.
+      </p>
+
+      <div class="contact-grid">
+        <a href="tel:+237657440427" class="contact-card">
+          <strong>Téléphone</strong>
+          <span>+237 657 440 427</span>
+        </a>
+        <a href="mailto:yvanawelba6@gmail.com" class="contact-card">
+          <strong>Email</strong>
+          <span>yvanawelba6@gmail.com</span>
+        </a>
+        <a href="https://github.com/yvan-awel" target="_blank" rel="noopener" class="contact-card">
+          <strong>GitHub</strong>
+          <span>github.com/yvan-awel</span>
+        </a>
+        <a href="#" target="_blank" rel="noopener" class="contact-card">
+          <strong>LinkedIn</strong>
+          <span>Yvan Awelba</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Yvan Awelba </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
